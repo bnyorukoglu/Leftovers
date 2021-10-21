@@ -20,5 +20,85 @@
             landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57AF7F20-5239-4FA8-8AD9-5AEF43023E79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeftoversApp/Views/CrumbList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B72019D-CBD8-45E9-AAD7-E6BB70BF9342"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeftoversApp/View Models/CrumbViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getCrumbs()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B72019D-CBD8-45E9-AAD7-E6BB70BF9342 - a7fe69625576887c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeftoversApp.CrumbViewModel.getCrumbs() -&gt; ()"
+                  moduleName = "LeftoversApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IBT109895/Desktop/BengiWorkspace/LeftoversApp/LeftoversApp/View%20Models/CrumbViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "4B72019D-CBD8-45E9-AAD7-E6BB70BF9342 - 348781f0e90c10a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (LeftoversApp.Crumb) -&gt; LeftoversApp.CrumbModel in LeftoversApp.CrumbViewModel.getCrumbs() -&gt; ()"
+                  moduleName = "LeftoversApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/IBT109895/Desktop/BengiWorkspace/LeftoversApp/LeftoversApp/View%20Models/CrumbViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D61A538-2600-49A4-A063-1D1A9C49B7B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeftoversApp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

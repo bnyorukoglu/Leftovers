@@ -8,14 +8,14 @@
 import Foundation
 
 
-var randomCrumbs:[Crumb] = generateData();
+var randomCrumbs:[CrumbX] = generateData();
 
 
-func generateData()->[Crumb]{
+func generateData()->[CrumbX]{
     
-    var randomCrumbs2:[Crumb] = []
+    var randomCrumbs2:[CrumbX] = []
     for _ in 1..<20 {
-        var q = Crumb();
+        var q = CrumbX();
         
         q.Id = Int.random(in: 1..<200)
         q.priority = Int.random(in: 0..<3)
@@ -27,8 +27,8 @@ func generateData()->[Crumb]{
 
 }
 
-func newDataItem()->Crumb{
-    var q = Crumb();
+func newDataItem()->CrumbX{
+    var q = CrumbX();
     q.Id = Int.random(in: 1..<200)
     q.priority = Int.random(in: 0..<3)
     q.title = randomString(length: 30)

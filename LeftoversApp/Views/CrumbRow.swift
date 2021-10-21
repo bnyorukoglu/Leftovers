@@ -7,21 +7,24 @@
 
 import SwiftUI
 
+
 struct CrumbRow: View {
     
-    var crumb : Crumb
-    var colors:[Color] = [Color.red.opacity(0.3),Color.red.opacity(0.6),Color.red]
+    var crumb : CrumbModel?
+    var colors:[Color] = PriorityPickerModel.defaultModel().Decoration
     
     let noteSize = getAdjustedWidth();
     var body: some View {
         
-        
+
         HStack{
-            Circle().fill(colors[crumb.priority]).frame(width: noteSize, height: noteSize, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            Text(crumb.title).padding(.leading,5)
+            Circle().fill(colors[Int(crumb!.Priority)]).frame(width: noteSize, height: noteSize, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            Text(crumb!.Title).padding(.leading,5)
+           
+            
         }
         
-    }
+        }
     
     // We should calculate thiss
     static func getAdjustedWidth()->CGFloat{
@@ -29,10 +32,4 @@ struct CrumbRow: View {
         return 24;
     }
         
-}
-
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        CrumbRow(crumb: randomCrumbs[0])
-    }
 }
