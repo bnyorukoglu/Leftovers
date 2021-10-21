@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95FF9A92710DA3900B8ECE6 /* Crumb+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF9A72710DA3900B8ECE6 /* Crumb+CoreDataClass.swift */; };
+		D95FF9AA2710DA3900B8ECE6 /* Crumb+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF9A82710DA3900B8ECE6 /* Crumb+CoreDataProperties.swift */; };
+		D95FF9B02710DFEA00B8ECE6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF9AF2710DFEA00B8ECE6 /* CoreDataManager.swift */; };
+		D95FF9B72714BBC400B8ECE6 /* CrumbViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF9B62714BBC400B8ECE6 /* CrumbViewModel.swift */; };
+		D95FF9C327175F6400B8ECE6 /* CrumbDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95FF9C227175F6400B8ECE6 /* CrumbDetailView.swift */; };
 		D968B34A270F77DE0081C5C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B349270F77DE0081C5C1 /* AppDelegate.swift */; };
 		D968B34C270F77DE0081C5C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B34B270F77DE0081C5C1 /* SceneDelegate.swift */; };
 		D968B34E270F77DE0081C5C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B34D270F77DE0081C5C1 /* ContentView.swift */; };
@@ -16,10 +21,13 @@
 		D968B359270F77DF0081C5C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D968B357270F77DF0081C5C1 /* LaunchScreen.storyboard */; };
 		D968B364270F77DF0081C5C1 /* LeftoversAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B363270F77DF0081C5C1 /* LeftoversAppTests.swift */; };
 		D968B36F270F77DF0081C5C1 /* LeftoversAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B36E270F77DF0081C5C1 /* LeftoversAppUITests.swift */; };
-		D968B381270F78850081C5C1 /* Crumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B380270F78850081C5C1 /* Crumb.swift */; };
+		D968B381270F78850081C5C1 /* CrumbX.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B380270F78850081C5C1 /* CrumbX.swift */; };
 		D968B388270F78900081C5C1 /* CrumbRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B386270F78900081C5C1 /* CrumbRow.swift */; };
-		D968B389270F78900081C5C1 /* CrumbList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B387270F78900081C5C1 /* CrumbList.swift */; };
+		D968B389270F78900081C5C1 /* CrumbListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B387270F78900081C5C1 /* CrumbListView.swift */; };
 		D968B38F270F78960081C5C1 /* RandomDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D968B38E270F78960081C5C1 /* RandomDataGenerator.swift */; };
+		D9B1B6AD2718CEA80078FA7C /* PriorityPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B6AC2718CEA80078FA7C /* PriorityPicker.swift */; };
+		D9D043482720997E0037F2A1 /* PlaceHolderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D043472720997E0037F2A1 /* PlaceHolderExtension.swift */; };
+		D9D0434D2720AC190037F2A1 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D0434C2720AC190037F2A1 /* LocalNotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D95FF9A72710DA3900B8ECE6 /* Crumb+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Crumb+CoreDataClass.swift"; path = "LeftoversApp/Persistence/Crumb+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D95FF9A82710DA3900B8ECE6 /* Crumb+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Crumb+CoreDataProperties.swift"; path = "LeftoversApp/Persistence/Crumb+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D95FF9AF2710DFEA00B8ECE6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D95FF9B62714BBC400B8ECE6 /* CrumbViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrumbViewModel.swift; sourceTree = "<group>"; };
+		D95FF9C227175F6400B8ECE6 /* CrumbDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrumbDetailView.swift; sourceTree = "<group>"; };
 		D968B346270F77DE0081C5C1 /* LeftoversApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftoversApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D968B349270F77DE0081C5C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D968B34B270F77DE0081C5C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,10 +68,13 @@
 		D968B36A270F77DF0081C5C1 /* LeftoversAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftoversAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D968B36E270F77DF0081C5C1 /* LeftoversAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoversAppUITests.swift; sourceTree = "<group>"; };
 		D968B370270F77DF0081C5C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D968B380270F78850081C5C1 /* Crumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crumb.swift; sourceTree = "<group>"; };
+		D968B380270F78850081C5C1 /* CrumbX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrumbX.swift; sourceTree = "<group>"; };
 		D968B386270F78900081C5C1 /* CrumbRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrumbRow.swift; sourceTree = "<group>"; };
-		D968B387270F78900081C5C1 /* CrumbList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrumbList.swift; sourceTree = "<group>"; };
+		D968B387270F78900081C5C1 /* CrumbListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrumbListView.swift; sourceTree = "<group>"; };
 		D968B38E270F78960081C5C1 /* RandomDataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomDataGenerator.swift; sourceTree = "<group>"; };
+		D9B1B6AC2718CEA80078FA7C /* PriorityPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityPicker.swift; sourceTree = "<group>"; };
+		D9D043472720997E0037F2A1 /* PlaceHolderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderExtension.swift; sourceTree = "<group>"; };
+		D9D0434C2720AC190037F2A1 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D95FF9AE2710DFC400B8ECE6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D95FF9AF2710DFEA00B8ECE6 /* CoreDataManager.swift */,
+				D9D0434C2720AC190037F2A1 /* LocalNotificationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D95FF9B42714BBAA00B8ECE6 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D95FF9B62714BBC400B8ECE6 /* CrumbViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D95FF9BE27175ED600B8ECE6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		D968B33D270F77DE0081C5C1 = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +149,12 @@
 		D968B348270F77DE0081C5C1 /* LeftoversApp */ = {
 			isa = PBXGroup;
 			children = (
-				D968B38D270F78960081C5C1 /* SandBox */,
+				D9B1B6AB2718CE870078FA7C /* Custom Views */,
 				D968B385270F78900081C5C1 /* Views */,
+				D95FF9B42714BBAA00B8ECE6 /* View Models */,
+				D95FF9AE2710DFC400B8ECE6 /* Manager */,
+				D968B38D270F78960081C5C1 /* SandBox */,
+				D95FF9BE27175ED600B8ECE6 /* New Group */,
 				D968B37F270F78850081C5C1 /* DataTypes */,
 				D968B349270F77DE0081C5C1 /* AppDelegate.swift */,
 				D968B34B270F77DE0081C5C1 /* SceneDelegate.swift */,
@@ -153,7 +197,9 @@
 		D968B37F270F78850081C5C1 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
-				D968B380270F78850081C5C1 /* Crumb.swift */,
+				D95FF9A72710DA3900B8ECE6 /* Crumb+CoreDataClass.swift */,
+				D95FF9A82710DA3900B8ECE6 /* Crumb+CoreDataProperties.swift */,
+				D968B380270F78850081C5C1 /* CrumbX.swift */,
 			);
 			path = DataTypes;
 			sourceTree = "<group>";
@@ -162,7 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				D968B386270F78900081C5C1 /* CrumbRow.swift */,
-				D968B387270F78900081C5C1 /* CrumbList.swift */,
+				D968B387270F78900081C5C1 /* CrumbListView.swift */,
+				D95FF9C227175F6400B8ECE6 /* CrumbDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +220,15 @@
 				D968B38E270F78960081C5C1 /* RandomDataGenerator.swift */,
 			);
 			path = SandBox;
+			sourceTree = "<group>";
+		};
+		D9B1B6AB2718CE870078FA7C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B6AC2718CEA80078FA7C /* PriorityPicker.swift */,
+				D9D043472720997E0037F2A1 /* PlaceHolderExtension.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,14 +361,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D968B381270F78850081C5C1 /* Crumb.swift in Sources */,
+				D968B381270F78850081C5C1 /* CrumbX.swift in Sources */,
+				D95FF9A92710DA3900B8ECE6 /* Crumb+CoreDataClass.swift in Sources */,
 				D968B351270F77DE0081C5C1 /* LeftoversApp.xcdatamodeld in Sources */,
 				D968B34A270F77DE0081C5C1 /* AppDelegate.swift in Sources */,
 				D968B34C270F77DE0081C5C1 /* SceneDelegate.swift in Sources */,
-				D968B389270F78900081C5C1 /* CrumbList.swift in Sources */,
+				D968B389270F78900081C5C1 /* CrumbListView.swift in Sources */,
+				D9D0434D2720AC190037F2A1 /* LocalNotificationManager.swift in Sources */,
 				D968B388270F78900081C5C1 /* CrumbRow.swift in Sources */,
 				D968B38F270F78960081C5C1 /* RandomDataGenerator.swift in Sources */,
+				D95FF9C327175F6400B8ECE6 /* CrumbDetailView.swift in Sources */,
+				D9B1B6AD2718CEA80078FA7C /* PriorityPicker.swift in Sources */,
+				D95FF9B72714BBC400B8ECE6 /* CrumbViewModel.swift in Sources */,
+				D9D043482720997E0037F2A1 /* PlaceHolderExtension.swift in Sources */,
 				D968B34E270F77DE0081C5C1 /* ContentView.swift in Sources */,
+				D95FF9AA2710DA3900B8ECE6 /* Crumb+CoreDataProperties.swift in Sources */,
+				D95FF9B02710DFEA00B8ECE6 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

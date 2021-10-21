@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var ztr = CrumbList()
+   
      
     
     
     var body: some View {
         
-        ztr
+        CrumbListView()
+        
     
     }
 }
