@@ -75,7 +75,7 @@ struct PriorityPicker: View {
                  
             }
             else{
-                Text("Priority").foregroundColor(Color.white).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                Text("Status").foregroundColor(Color.white).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Rectangle().frame(width: 2, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/).foregroundColor(Color.white)
                 
