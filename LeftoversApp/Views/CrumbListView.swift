@@ -70,10 +70,10 @@ struct CrumbListView: View {
                             }.foregroundColor(.red)
                         }
                         
-                        Menu(content: { Button("Date -> Recent First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.CREATE_DATE, direction: 0)})
-                                Button("Date -> Oldest First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.CREATE_DATE, direction: 1)})
-                                Button("Due Date -> Recent First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.DUE_DATE, direction: 0)})
-                                Button("Due Date -> Oldest First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.DUE_DATE, direction: 1)})}, label: {return Label(
+                        Menu(content: { Button("Date -> Oldest First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.CREATE_DATE, direction: 0)})
+                                Button("Date -> Recent First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.CREATE_DATE, direction: 1)})
+                                Button("Due Date -> Oldest First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.DUE_DATE, direction: 0)})
+                                Button("Due Date -> Recent First", action: {crumbViewModel.sortByKey(key: CrumbViewModel.DUE_DATE, direction: 1)})}, label: {return Label(
                                     title: { Text("") },
                                     icon: { Image(systemName: "arrow.down.circle") }
                                 )})
@@ -96,14 +96,12 @@ struct CrumbListView: View {
                                 initialize = false;
                                 return;
                             }
-                            
-                            if true{
-                                crumbViewModel.saveChanges();
-                                fetchCrumbs()
-                                
-                            }
                             else{
-                           
+                                
+                                if(crumbViewModel.isDirty){
+                                    crumbViewModel.saveChanges();
+                                }
+                                fetchCrumbs()
                             }
                         }).background(Color.pink).navigationBarHidden(true)
                         

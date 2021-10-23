@@ -4,7 +4,6 @@
 //
 //  Created by 109895 on 11.10.2021.
 //
-
 import Foundation
 import CoreData
 
